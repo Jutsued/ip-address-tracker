@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="./style.css" rel="stylesheet" type="text/css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+    <div class="header">
+      <div class="title">
+        <h1>IP Address Tracker</h1>
+      </div>
+      <div class="searchInput">
+        <input type="text" id="search" placeholder="Search for any IP address or domain">
+        <button class="sign" style="background-color: black;">
+        <img src="./images/icon-arrow.svg"></button>
+      </div>
+    </div>
+
+    <div class="resultsDiv">
+      
+      <div class="results" id="address">
+        <h4>IP ADDRESS</h4>
+        <p id="current_address">192.212.174.101</p>
+      </div>
+
+      <div class="results" id="town">
+        <h4>LOCATION</h4>
+        <p id="current_town">New York, NY 10030</p>
+      </div>
+
+      <div class="results" id="timezone">
+        <h4>TIMEZONE</h4>
+        <p id="current_timezone">UTC-08:00 <!-- add offset value dynamically using the API --></p>
+      </div>
+
+      <div class="results" id="no-border">
+        <h4>ISP</h4>
+        <p id="current_no-border">SpaceX<br>
+           Starlink</p>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Jutsued">Pablo A Bonilla</a>.
+    </div>
+  </div>
+  
+  <div id="mapid">
+   <!-- <i><img src="./images/icon-location.svg"></i> -->
+  </div>
+  
+
+  
+  
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+<script src="./script.js"></script>
+</body>
+
+</html>

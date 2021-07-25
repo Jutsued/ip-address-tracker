@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-image: url(./images/pattern-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.title {
+    margin-top: 2.5rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.searchInput {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.searchInput input {
+    height: 40px;
+    width: 30%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.searchInput input::placeholder {
+    padding: 1rem;
+}
+
+.sign {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 44px;
+    width: 44px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sign img {
+    height: 15px;
+    width: 15px;
+    margin-top: 35%;
+}
+
+.resultsDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 130px;
+    width: 75%;
+    background-color: #fff;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: -66px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    z-index: 1000;
+}
+
+.results {
+    text-align: left;
+    width: 100%;
+    margin: 8px 0 25px 15px;
+    height: auto;
+    border-right: 1px dotted;
+}
+.results h4 {
+    line-height: 40px;
+    color: gray;
+    font-size: .7rem;
+}
+
+.results p {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#no-border {
+    border-right: 0;
+}
+
+#mapid {
+    height: 70vh;
+    width: 100%;
+}
+
+@media (max-width: 700px) {
+    .header {
+        height: auto;
+        
+    }
+
+    .searchInput {
+        margin-top: 10px;
+        height: 1vh;
+        width: 80%;
+    }
+
+    .title {
+        padding-bottom: 10px;
+    
+    }
+
+    .searchInput input {
+        width: 100%;
+        height: 59px;
+    }
+
+    .sign {
+        height: 62px;
+    }
+
+    .sign img {
+        height: 20px;
+        width: 20px;
+        padding-top: 7px;
+    }
+
+    .resultsDiv {
+        height: auto;
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        height: 40%;
+        overflow: hidden;
+        bottom: -100px;
+    }
+
+    .results {
+        text-align: center;
+        margin: 0;
+        padding-bottom: 10px
+    }
+
+    #mapid{
+        width: 100%;
+        height: 60vh;
+    }
+}
