@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Rubik', sans-serif;
 }
 
 .container {
@@ -21,6 +24,7 @@
     text-align: center;
     font-size: 1rem;
     color: #fff;
+    letter-spacing: 1px;
 }
 
 .searchInput {
@@ -85,8 +89,9 @@
 }
 .results h4 {
     line-height: 40px;
-    color: gray;
+    color: hsl(0, 0%, 59%);
     font-size: .7rem;
+    letter-spacing: 1px;
 }
 
 .results p {
