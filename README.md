@@ -6,9 +6,7 @@
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ### The challenge
 
@@ -26,13 +24,14 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Jutsued/ip-address-tracker)
-- Live Site URL: [Add live site URL here](https://jutsued.github.io/ip-address-tracker/)
+- Solution URL: [Repo](https://github.com/Jutsued/ip-address-tracker)
+- Live Site URL: [live site URL](https://jutsued.github.io/ip-address-tracker/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
+- APIs : Leafletjs, Mapbox, ipify
 - Flexbox
 - JS(API)
 
@@ -44,17 +43,9 @@ This project helped me improved my js skillS, specially working with api's. API'
 
 My next API project is gonna be a movie site. Stay near by so you don't miss it.
 
-
-### Useful resources
-
-- [Example resource 1](https://www.mapbox.com/) - I used this site to pull up the map. Manage my request and so on.
-
 ## Author
 
 - Website - [Pablo A Bonilla](https://github.com/Jutsued)
 - Frontend Mentor - [@Jutsued](https://www.frontendmentor.io/profile/Jutsued)
 
-## Acknowledgments
-
-@Pierre solution (https://github.com/PierreWagon) helped me finished this project. And also other resources online. i.e (w3schools.com, developer.mozila.org, stackoverflow.com)
 
