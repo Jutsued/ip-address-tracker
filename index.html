@@ -2,19 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link href="./style.css" rel="stylesheet" type="text/css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-   crossorigin=""/>
-  <title>Frontend Mentor | IP Address Tracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="title" property="og:title" content="IP Tracker" />
+        <meta property="og:type" content="Website" />
+        <meta 
+        name="image" 
+        property="og:image" 
+        content="https://live.staticflickr.com/65535/51432253895_6a2f4926a4_s.jpg" />
+        <meta 
+        name="description" 
+        property="og:description" 
+        content="IP Tracker API" />
+        <meta name="author" content="Pablo A Bonilla" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
+  <link href="./style.css" rel="stylesheet" type="text/css">
+  <title>IP Address Tracker</title>
 </head>
 <body>
   <div class="container">
@@ -44,7 +48,7 @@
 
       <div class="results" id="timezone">
         <h4>TIMEZONE</h4>
-        <p id="current_timezone">UTC-08:00 <!-- add offset value dynamically using the API --></p>
+        <p id="current_timezone">UTC-08:00</p>
       </div>
 
       <div class="results" id="no-border">
@@ -59,17 +63,11 @@
     </div>
   </div>
   
-  <div id="mapid">
-   <!-- <i><img src="./images/icon-location.svg"></i> -->
-  </div>
-  
-
-  
+  <div id="mapid"></div>
   
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
    crossorigin=""></script>
 <script src="./script.js"></script>
 </body>
-
 </html>
