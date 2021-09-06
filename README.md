@@ -8,10 +8,8 @@
 ![](./images/phoneimg.jpeg)
 
 ### Links
-
-- Solution URL: [https://jutsued.github.io/ip-address-tracker/]
-- Live Site URL: [https://github.com/Jutsued/ip-address-tracker]
-
+- Solution URL: [https://github.com/Jutsued/ip-address-tracker]
+- Live Site URL: [https://jutsued.github.io/ip-address-tracker/]
 ### Built with
 
 - Semantic HTML5 markup
